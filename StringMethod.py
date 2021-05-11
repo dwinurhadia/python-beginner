@@ -9,6 +9,7 @@ print(course.find('beginner'))
 print(course.replace('beginner','Absolute Beginner'))
 print('Python' in course)
 print('python' in course)
+print(course.replace('P','J'))
 
 # resume
 # len()
