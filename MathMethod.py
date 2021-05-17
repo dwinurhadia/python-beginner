@@ -1,13 +1,17 @@
-print(10/3)
+# print(10/3)
 # +-*/% // << operator matematika biasa
 
-x = (10  + 3) * 2 ** 4
-print(x)
+# x = (10  + 3) * 2 ** 4
+# print(x)
 
 # exponential 2 ** 2 << pangkat
 # multiplication or division
 # addition or substraction
 
+import math
+
+
+# math.asin(x)
 x = 2.9
 print(round(x))
 print(abs(-2.1))
