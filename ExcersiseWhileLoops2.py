@@ -1,5 +1,5 @@
 cmd = ""
-while cmd != "quit":
+while True:
     cmd = input("> ").lower()
     if cmd == "start":
         print("The car started ....")
@@ -9,5 +9,7 @@ while cmd != "quit":
         print("start - start the car")
         print("stop - stop the car")
         print("quit - to quit")
+    elif cmd == "quit":
+        break
     else:
         print("Sorry, we dont understand")
