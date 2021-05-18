@@ -8,5 +8,5 @@ for a in ['makan','nasi','lauk']:
 for angka in [1,2,3,4]:
     print(angka)
 
-for ra in range(5):
+for ra in range(2,10,3):
     print(ra)
