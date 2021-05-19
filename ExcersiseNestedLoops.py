@@ -1,3 +1,6 @@
 number = [5,2,5,2,2]
 for x_co in number:
-    print('x' * x_co)
+    out = ''
+    for count in range(x_co):
+        out += 'x'
+    print(out)
