@@ -5,3 +5,5 @@ customer = {
 }
 
 print(customer["name"])
+print(customer.get("name"))
+print(customer.get("name1"))
