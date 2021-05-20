@@ -5,5 +5,6 @@ customer = {
 }
 
 print(customer["name"])
+customer["name"] = "Indo Smith"
 print(customer.get("name"))
 print(customer.get("name1"))
