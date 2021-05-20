@@ -17,7 +17,18 @@ numbers = [3, 6, 9, 2, 6]
 
 
 numbers.append(30)
+print(numbers)
 numbers.insert(0,3)
+print(numbers)
+numbers.pop()
+print(numbers)
+numbers.reverse()
+numbers.pop()
+print(numbers)
+numbers.pop()
+numbers.pop()
+print(numbers)
+numbers.count(3)
 
 
 
