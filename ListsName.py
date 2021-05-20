@@ -9,8 +9,16 @@
 # print(name)
 
 numbers = [3, 6, 9, 2, 6]
-max = numbers[0]
-for numb in numbers:
-    if numb > max:
-        max = numb
-print(max)
+# max = numbers[0]
+# for numb in numbers:
+#     if numb > max:
+#         max = numb
+# print(max)
+
+
+numbers.append(30)
+numbers.insert(0,3)
+
+
+
+print(numbers)
