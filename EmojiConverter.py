@@ -1,3 +1,11 @@
 message = input("> ")
 words = message.split(' ')
-print(words)
+emoji = {
+    ':)': '😃',
+    ':(': '😢'
+}
+# print(words)
+output = ""
+for w in words:
+    output += emoji.get(w, w) + " "
+print(output)
