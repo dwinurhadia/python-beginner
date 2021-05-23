@@ -11,3 +11,4 @@ def greeting_name(first_name, last_name):
     print(f"Hi {first_name} {last_name} welcome to indonesia")
 
 greeting_name('Paul','Walker')
+greeting_name('Paul', last_name='Walker')
