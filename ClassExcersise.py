@@ -2,7 +2,7 @@ class Person:
     def __init__(self,name) -> None:
         self.name = name
     def talk(self):
-        print("talk")
+        print(f"Hi, I'am {self.name}")
     
 
 
