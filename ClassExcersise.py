@@ -9,3 +9,6 @@ class Person:
 john = Person("John Smith")
 print(john.name)
 john.talk()
+
+bob = Person("Bob Some")
+bob.talk()
